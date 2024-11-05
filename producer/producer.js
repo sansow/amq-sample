@@ -22,6 +22,9 @@ async function sendMessage() {
     
     // Send the message
     channel.sendToQueue(queue, Buffer.from(message));
+     channel.sendToQueue(queue, Buffer.from(message));
+     channel.sendToQueue(queue, Buffer.from(message));
+     channel.sendToQueue(queue, Buffer.from(message));
     
     console.log(`Sent message: ${message}`);
     
