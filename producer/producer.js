@@ -1,7 +1,7 @@
 const amqp = require('amqplib');
 
 // Connection URL for your AMQ broker
-const url = 'amqp://ex-aao-ss-0.ex-aao-hdls-svc.amq.svc.cluster.local:61616';
+const url = 'amqp://ex-aao-ss-0.ex-aao-hdls-svc.amq.svc.cluster.local:5672';
 
 // Queue name
 const queue = 'myAddress0';
