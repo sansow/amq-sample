@@ -1,0 +1,24 @@
+{
+  "name": "amq-producer",
+  "version": "1.0.0",
+  "description": "Node.js microservice producer for AMQ broker",
+  "main": "producer.js",
+  "scripts": {
+    "start": "node producer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "amq",
+    "producer",
+    "microservice",
+    "nodejs"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
